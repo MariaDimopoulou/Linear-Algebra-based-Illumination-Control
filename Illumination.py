@@ -71,7 +71,7 @@ plt.show()
 L3=np.matmul(A,p3)
 L_3=np.reshape(L3,(25,25))
 fig, ax = plt.subplots()
-im1 = ax.imshow(L_3)  #Using ax.imshow(L_3,cmap='rainbow') for example i could change the colors of the map 
+im1 = ax.imshow(L_3)  
 bar = plt.colorbar(im1)
 ax.set_xticks((0,25))
 ax.set_yticks((0,25))
